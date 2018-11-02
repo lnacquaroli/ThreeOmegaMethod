@@ -89,7 +89,7 @@ The method implemented here allows to input the resistances given by the interfa
 
 ### Integration limit
 
-`int_limit::Float64` sets the upper integration limit for the numerical integration with `QuadGK` package. This is an optional parameter with default value of `1e6`.
+`int_limit::Float64` sets the upper integration limit for the numerical integration with `QuadGK` package. This is an optional parameter with default value of `1.0e6`.
 
 ## We welcome suggestions
 
