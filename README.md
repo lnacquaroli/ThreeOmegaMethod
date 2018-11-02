@@ -91,6 +91,12 @@ The method implemented here allows to input the resistances given by the interfa
 
 `int_limit::Float64` sets the upper integration limit for the numerical integration with `QuadGK` package. This is an optional parameter with default value of `1.0e6`.
 
+## Output arguments
+
+`ΔT::Array{ComplexF64,1}` is the temperature rise response calculated in the 2-omega mode.
+
+`int_error::Array{Float64,1}` is the error returned from `QuadGK` process at each frequency.
+
 ## We welcome suggestions
 
 If you have ideas and suggestions to improve `ThreeOmegaMethod.jl` in Julia, PRs and issues are welcomed.
