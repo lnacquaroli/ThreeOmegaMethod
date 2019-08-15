@@ -1,3 +1,8 @@
+# DEPRECATED
+
+This package is no longer supported, please consider using [ThinFilmsTools.jl](https://github.com/lnacquaroli/ThinFilmsTools.jl) instead.
+
+
 # ThreeOmegaMethod.jl
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
